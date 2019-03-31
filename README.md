@@ -2,7 +2,7 @@
 
 Author : nag  
 
-### it can add and delete contacts dynamically
+# it can add and delete contacts dynamically
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
