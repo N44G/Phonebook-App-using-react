@@ -1,8 +1,8 @@
-<span style="color: green"># Phonebook-App-using-react </span>
++ # Phonebook-App-using-react  it can add and delete contacts dynamically
 
 Author : nag  
 
-# it can add and delete contacts dynamically
+
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
