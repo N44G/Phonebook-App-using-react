@@ -55,7 +55,10 @@ class App extends Component {
     this.setState({data:this.state.data})
     //e.preventDefault();
   }
-  else{alert("repeated name")}
+  else{
+    this.setState({repeated:"Contact with the name already exists"});
+    //alert("repeated name")
+  }
 
 }
   render() {
@@ -79,7 +82,7 @@ class App extends Component {
         <div className="col-md-4">
           <button className="btn btn-dark mt-10"  onClick={ this.onClick} >Add</button>
         </div>
-        
+      <div className="container "  ><p className="text-danger">{this.state.repeated }</p> </div>  
       </div>
       <button className="btn btn-dark m-3">Contact List</button>
       <table className="table table-striped table-hover mt-9">
